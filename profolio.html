@@ -7,61 +7,69 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/canvas.css">
+    <link rel="stylesheet" href="css/profolio.css">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/all.js"></script>
     <title>作品集</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">LOGO</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">關於我</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">經歷</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">專案作品</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">聯絡</a>
-                    </li>
-                </ul>
+    <div class="all">
+        <header>
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">LOGO</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">關於我</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">經歷</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">專案作品</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">聯絡</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <canvas id="canvas"></canvas>
+        </header>
+        <main>
+            <div class="grid">
+                <figure class="effect-marley">
+                    <img src="../images/11.jpg" alt="img11">
+                    <figcaption>
+                        <h2>Sweet <span>Marley</span></h2>
+                        <p>Marley tried to convince her but she was not interested.</p>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+                <figure class="effect-marley">
+                    <img src="../images/12.jpg" alt="img12">
+                    <figcaption>
+                        <h2>Sweet <span>Marley</span></h2>
+                        <p>Marley tried to convince her but she was not interested.</p>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
             </div>
-        </nav>
-        <div class="grid">
-            <figure class="effect-marley">
-                <img src="../images/11.jpg" alt="img11">
-                <figcaption>
-                    <h2>Sweet <span>Marley</span></h2>
-                    <p>Marley tried to convince her but she was not interested.</p>
-                    <a href="#">View more</a>
-                </figcaption>
-            </figure>
-            <figure class="effect-marley">
-                <img src="../images/12.jpg" alt="img12">
-                <figcaption>
-                    <h2>Sweet <span>Marley</span></h2>
-                    <p>Marley tried to convince her but she was not interested.</p>
-                    <a href="#">View more</a>
-                </figcaption>
-            </figure>
-        </div>
-        <canvas id="canvas"></canvas>
-    </header>
+        </main>
+
+
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
